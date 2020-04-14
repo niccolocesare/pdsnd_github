@@ -27,7 +27,7 @@ def get_filters():
         try:
             city = input('\nWould you like to see data for Chicago, New York City, or Washington? \n>> ').lower()
             if city in CITY_DATA:
-                print(f'{city.title()} is the city you have selected!')
+                print('{} is the city you have selected!'.format(city.title()))
                 break
             elif city not in CITY_DATA:
                 print('\nWrong city value. Please retry.')
