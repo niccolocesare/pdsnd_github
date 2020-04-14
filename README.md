@@ -14,5 +14,10 @@ Bikeshare data for the cities of New York, Chicago and Washington will be analyz
 * new_york_city.csv
 * washington.csv
 
+### Useful notes
+* Use Atom as the code editor
+* bikeshare.py written in Python 3.8.2
+* Use the git config provided by Udacity
+
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
