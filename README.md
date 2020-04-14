@@ -1,11 +1,11 @@
 ### April 13th, 2020
 Include the date you created this project and README file.
 
-### Project Title
+### Bikeshare Python Project
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+Bikeshare data for the cities of New York, Chicago and Washington will be analyzed via an interactive Python script which will provide summary statistics as well as raw data based on the inputs provided.
 
 ### Files used
 Include the files used
