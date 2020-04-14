@@ -27,7 +27,7 @@ def get_filters():
         try:
             city = input('\nWould you like to see data for Chicago, New York City, or Washington? \n>> ').lower()
             if city in CITY_DATA:
-                print(f'{city.title()} is the city you have selected!')
+                print('{} is the city you have selected!'.format(city.title()))
                 break
             elif city not in CITY_DATA:
                 print('\nWrong city value. Please retry.')
@@ -39,7 +39,7 @@ def get_filters():
         try:
             month = input('\nBy which month would you like to filter the data? \n(Choose between: All, January, February, March, April, May, June) \n>> ').lower()
             if month in months:
-                print(f'{month.title()} is the month value you have selected!')
+                print('{} is the month value you have selected!'.format(month.title()))
                 break
             elif month not in months:
                 print('\nWrong input value. Please try again.')
